@@ -1,0 +1,27 @@
+{
+  "name": "react-fileupload",
+  "version": "0.0.1",
+  "description": "simple fileupload example by react client and express server",
+  "main": "index.js",
+  "scripts": {
+    "coffee": "coffee -cwb -o js coffee_src",
+    "build": "parcel build coffee_src/client/index.coffee",
+    "devel": "gulp"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "gulp": "^4.0.2",
+    "gulp-nodemon": "^2.4.2",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {
+    "axios": "^0.19.0",
+    "coffeescript": "^2.4.1",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-hyperscript": "^3.2.0"
+  }
+}
