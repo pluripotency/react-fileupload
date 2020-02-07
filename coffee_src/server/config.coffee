@@ -3,4 +3,4 @@ module.exports =
   upload_dir: 'uploads/'
   upload_url: '/upload'
   server:
-    port: 3000
+    port: 3002
